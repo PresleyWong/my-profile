@@ -1,11 +1,22 @@
 import { useEffect } from "react";
 
-export const TechnologiesTags = ({ tags }) =>
-  tags.map((item, index) => (
+export const TechnologiesTags = ({ tags }) => {
+  const tagsList = tags.map((item, index) => (
     <li key={index} className="list-inline-item">
       <span className="badge bg-secondary badge-pill">{item}</span>
     </li>
   ));
+
+  if (tags.length > 0)
+    return (
+      <>
+        <h4 className="resume-timeline-item-desc-heading font-weight-bold">
+          Technologies used:
+        </h4>
+        {tagsList}
+      </>
+    );
+};
 
 const Experience = (props) => {
   useEffect(() => {
@@ -36,11 +47,9 @@ const Experience = (props) => {
             Achievement:
           </h4>
           <p>{exp.achievement}</p>
-          <h4 className="resume-timeline-item-desc-heading font-weight-bold">
-            Technologies used:
-          </h4>
+
           <ul className="list-inline">
-            <TechnologiesTags tags={exp.toolUsed} />
+            <TechnologiesTags tags={exp.techUsed} />
           </ul>
         </div>
       </article>
