@@ -11,11 +11,13 @@ const Portfolio = (props) => {
       {props.data.map((item, index) => (
         <div className="row mb-4 border-bottom pb-2" key={index}>
           <div className="col-3">
-            <img
-              alt="Hollywood Sign on The Hill"
-              className="img-fluid shadow-1-strong rounded"
-              src={item.thumbnail}
-            />
+            <a href={item.url} target="blank">
+              <img
+                alt={item.title}
+                className="img-fluid shadow-1-strong rounded"
+                src={item.thumbnail}
+              />
+            </a>
           </div>
           <div className="col-9">
             <p className="mb-2">

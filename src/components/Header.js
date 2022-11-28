@@ -27,7 +27,7 @@ const Header = (props) => {
     <header className="resume-header pt-4 pt-md-0">
       <div className="row">
         <div className="col-block col-md-auto resume-picture-holder text-center text-md-start">
-          <img src={props.data.imageUrl} className="picture" />
+          <img src={props.data.imageUrl} className="picture" alt="profile" />
         </div>
         <div className="col">
           <div className="row p-4 justify-content-center justify-content-md-between">
