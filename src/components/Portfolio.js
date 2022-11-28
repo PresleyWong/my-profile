@@ -35,7 +35,7 @@ const Portfolio = (props) => {
             </p>
 
             <div>
-              <TechnologiesTags tags={item.toolUsed} />
+              <TechnologiesTags tags={item.techUsed} />
             </div>
           </div>
         </div>
