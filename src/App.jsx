@@ -15,7 +15,7 @@ import Language from "./pages/Language";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/my-profile">
+    <BrowserRouter basename="/my-profile/">
       <Layout>
         <Routes>
           <Route path="/" element={<About />} />
