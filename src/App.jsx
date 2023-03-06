@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
@@ -15,7 +15,7 @@ import Language from "./pages/Language";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/my-profile/">
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<About />} />
@@ -28,7 +28,7 @@ const App = () => {
         </Routes>
       </Layout>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
