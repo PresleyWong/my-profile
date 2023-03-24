@@ -191,11 +191,44 @@ const Data = {
   ],
   portfolio: [
     {
+      title: "Event's Participant Manager",
+      description:
+        "An application composed of two parts: the front-end and the back-end, each developed independently.",
+      url: "https://presleywong.github.io/participant-manager-frontend",
+      techUsed: [
+        "ReactJS",
+        "Redux Toolkit",
+        "Javascript",
+        "HTML5",
+        "CSS3",
+        "Chakra UI",
+        "Ruby on Rails",
+        "JWT Authentication",
+      ],
+      thumbnail: "/my-profile/images/event-participant-manager.png",
+    },
+    {
       title: "Image Classifier",
       description: "Train AI model to classify images with TensorFlow",
       url: "https://presleywong.github.io/image-classifier",
       techUsed: ["ReactJS", "TensorFlowJS", "Vite", "Tailwind CSS"],
       thumbnail: "/my-profile/images/tensorflow-js.png",
+    },
+    {
+      title: "Pokemon Pokedex",
+      description:
+        "Pokedex build with data from pokeapi.co along with Material UI  ",
+      url: "https://presleywong.github.io/pokedex/",
+      techUsed: [
+        "Vite",
+        "ReactJS",
+        "Redux Toolkit",
+        "Javascript",
+        "HTML5",
+        "CSS3",
+        "Material UI",
+      ],
+      thumbnail: "/my-profile/images/pokedex.jpeg",
     },
     {
       title: "Online Shop",
@@ -212,23 +245,6 @@ const Data = {
         "Tailwind CSS",
       ],
       thumbnail: "/my-profile/images/online-shop.png",
-    },
-    {
-      title: "Event's Participant Manager",
-      description:
-        "An application composed of two parts: the front-end and the back-end, each developed independently.",
-      url: "https://presleywong.github.io/participant-manager-frontend",
-      techUsed: [
-        "ReactJS",
-        "Redux Toolkit",
-        "Javascript",
-        "HTML5",
-        "CSS3",
-        "Chakra UI",
-        "Ruby on Rails",
-        "JWT Authentication",
-      ],
-      thumbnail: "/my-profile/images/event-participant-manager.png",
     },
     {
       title: "Social Application with JWT Authentication",
