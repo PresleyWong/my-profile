@@ -194,7 +194,7 @@ const Data = {
       title: "Event's Participant Manager",
       description:
         "An application composed of two parts: the front-end and the back-end, each developed independently.",
-      url: "https://presleywong.github.io/participant-manager-frontend",
+      url: "https://presleywong.github.io/participant-manager-vite",
       techUsed: [
         "ReactJS",
         "Redux Toolkit",
